@@ -1,0 +1,152 @@
+
+	{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+
+
+
+<section class="container mt-5">
+    <h2 class="text-center mb-4">About Me</h2>
+
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+            <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+
+        <div class="col-md-8">
+            <p>My name is Ms Joan Chebet,I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+    <section class="container mt-5">
+    <h2 class="text-center mb-4">Languages that i have knowledge about</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>CSS</strong></h3>
+            <p>CSS is an interpreted, high-level, general-purpose programming language. It's great for web development, data analysis, artificial intelligence, and more.</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+            <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>HTML</strong></h3>
+            <p>he HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the meaning and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3><strong>Python</strong></h3>
+            <p>Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+    <section class="container mt-5">
+    <h2 class="text-center mb-4"> Services</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Front-End Development</h3>
+            <p>Creating the user interface and user experience by working with HTML, CSS, and JavaScript</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Back-End Development</h3>
+            <p>Building the server-side components of a website or web application using server-side languages like PHP, Python, Ruby, Node.js, or Java</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Other Services</h3>
+            <p>I also offer any other services that a client needs to get from me as per the client.Full-Stack Development: Combining front-end and back-end development to create complete web solutions</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+    <section class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Contact Info</h3>
+            <ul class="list-unstyled">
+                <li><strong>Phone:</strong> +254708242977</li>
+                <li><strong>Email:</strong> chebetjoan110@gmail.com</li>
+                <li><strong>Address:</strong> 811-20210 </li>
+            </ul>
+        </div>
+
+
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3>Am Located here!</h3>
+
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.3586903348!2d36.6825805541912!3d-1.3028602819557469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1698299243903!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h3>Send a Message</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary button-spacing">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+{% endblock %}

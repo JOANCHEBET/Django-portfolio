@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block body %}
+     <section class="container mt-5">
+    <h2 class="text-center mb-4">Services</h2>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Front-End Development</h3>
+            <p>Creating the user interface and user experience by working with HTML, CSS, and JavaScript</p>
+        </div>
+    </div>
+
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Back-End Development</h3>
+            <p> Building the server-side components of a website or web application using server-side languages like PHP, Python, Ruby, Node.js, or Java.</p>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        <div class="col-md-4">
+             <img src="{% static 'images/Passport.jpg' %}" alt="" width="400" height="250" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <h3>Other Services</h3>
+            <p>Full-Stack Development: Combining front-end and back-end development to create complete web solutions.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+{% endblock %}
